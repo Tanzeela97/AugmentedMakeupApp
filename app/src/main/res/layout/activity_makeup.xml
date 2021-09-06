@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat.Light"
+    tools:context="com.augmented.MakeupActivity"
+    >
+
+    <fragment android:name="com.augmented.FaceArFragment"
+        android:id="@+id/face_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+
+    <Button
+        android:id="@+id/scn"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@drawable/btn_makeup_lips"
+        android:drawableStart="@drawable/scanner_icon"
+        android:padding="5dp"
+        android:text="Scan"
+
+
+        />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="#0b0a0a"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="20dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+
+            >
+
+
+            <Button
+                android:id="@+id/btnPurple"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:drawableTop="@drawable/custom_button1"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/purple"
+                android:textSize="8sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnMagenta"
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:drawableTop="@drawable/custom_button2"
+                android:text="@string/magenta"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"/>
+
+            <Button
+                android:text="@string/pink"
+                android:drawableTop="@drawable/custom_button3"
+                android:id="@+id/btnTeaPink"
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnRed"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:drawableTop="@drawable/custom_button4"
+                android:text="@string/red"
+                android:textSize="8sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/btnPeach"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:textSize="8sp"
+                android:drawableTop="@drawable/custom_button5"
+                android:text="@string/peach"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnOrange"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:text="@string/orange"
+                android:textSize="8sp"
+                android:drawableTop="@drawable/custom_button_6"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"/>
+
+            <Button
+                android:text="@string/baby_pink"
+                android:drawableTop="@drawable/custom_button_7"
+                android:id="@+id/btnBabyPink"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:textSize="8sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Augmented</string>
+    <string name="facebook_app_id">936504276684541</string>
+    <string name="fb_login_protocol_scheme">fb936504276684541</string>
+    <string name="scan_here">Scan Product Code</string>
+    <string name="scan_result">Scan Result</string>
+    <string name="makeup">Lip Makeup</string>
+    <string name="sigin_in_to_continue">Sign In to Continue</string>
+    <string name="password">Password</string>
+
+
+    <string name="purple">Doesn\'t Matte</string>
+    <string name="magenta">Berry Matte</string>
+    <string name="pink">Moiselle Pink</string>
+    <string name="red">Modern Rose</string>
+    <string name="peach">Matte Cademia</string>
+    <string name="orange">At Bat</string>
+    <string name="baby_pink">Matte-Caron</string>
+
+
+    <string name="first_slide_title">Augmented Makeup</string>
+    <string name="second_slide_title">Matte Lipshades</string>
+    <string name="third_slide_title">L\'Oreal Matte</string>
+    <string name="fourth_slide_title">Just Tap and Try!</string>
+
+    <string name="first_slide_desc">We welcome you to the world of Augmented Makeup</string>
+    <string name="second_slide_desc">We provide almost all your favourite Lipshade.</string>
+    <string name="third_slide_desc">We have variety of Amazing shades by L\'Oreal Paris</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you don\'t have to worry about anything.</string>
+
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">LET\'S GET STARTED</string>
+    <string name="goto_camera">Goto Camera</string>
+    <string name="TextviewScan">The scanned Matte Lip shade is available</string>
+
+
+</resources>
